@@ -7,7 +7,9 @@ chrome.tabs.onUpdated.addListener(showNetflixAction);
 // adds page_button to all tabs containing netflix url
 function showNetflixAction(tabId, changeInfo, tab) {
     // if the given string is found in the url
-  if (tab.url.indexOf('http://www.netflix.com/') > -1) {
+  if (tab.url.indexOf('http://www.netflix.com/') > -1 ||
+      tab.url.indexOf('http://www.guimp.com/') > -1) {
+
     // Show icon for page action in the current tab.
     chrome.pageAction.show(tabId);
   }

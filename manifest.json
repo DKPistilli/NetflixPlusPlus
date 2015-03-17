@@ -4,7 +4,8 @@
     "version"         : "1.0.1",
     "author"          : "Dorian Pistilli",
 
-    "description"   : "Provides best of nflix to help user choose media",
+    "description"   : "Provides links to best of netflix to help user 
+                       choose media",
     "icons"         : { "16": "icon.png",
                         "48": "icon.png",
                        "128": "icon.png" },
