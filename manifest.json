@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name"            : "Netflix Addons",
+    "version"         : "1.0",
+    "author"          : "Dorian Pistilli",
+
+    "description"   : "Gives links to portions of Whats-On-Netflix",
+    "icons"         : { "16": "icon.png",
+                        "48": "icon.png",
+                       "128": "icon.png" },
+
+    "permissions"   : [ "tabs"],
+    "background"    : { "scripts": ["popup.js"] },
+
+    "page_action": {
+        "default_title": "Netflix Addons",
+        "default_icon" : {
+            "19": "icon.png",
+            "38": "icon.png"
+        },
+        "default_popup": "popup.html"
+    }
+}
