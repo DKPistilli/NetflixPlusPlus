@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
     "name"            : "Netflix Supplement",
-    "version"         : "1.0",
+    "version"         : "1.0.1",
     "author"          : "Dorian Pistilli",
 
-    "description"   : "Gives links to portions of Whats-On-Netflix",
+    "description"   : "Provides best of nflix to help user choose media",
     "icons"         : { "16": "icon.png",
                         "48": "icon.png",
                        "128": "icon.png" },

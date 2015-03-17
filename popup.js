@@ -1,12 +1,13 @@
 
 // Add a listener so background knows when a tab has changed.
-// You need 'tabs' persmission, that's why we added it to manifest file.
+// Requires 'tabs' persmission
 chrome.tabs.onUpdated.addListener(showNetflixAction);
 
-// input specified by chrome.tabs.onUpdated.addListener reqs
+// input specified by the chrome.tabs.onUpdated.addListener requirements
 // adds page_button to all tabs containing netflix url
 function showNetflixAction(tabId, changeInfo, tab) {
-  if (tab.url.indexOf('http://www.guimp.com/') > -1) {
+    // if the given string is found in the url
+  if (tab.url.indexOf('http://www.netflix.com/') > -1) {
     // Show icon for page action in the current tab.
     chrome.pageAction.show(tabId);
   }
