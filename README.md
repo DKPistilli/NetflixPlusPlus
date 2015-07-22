@@ -1,4 +1,4 @@
-# NetflixSupplement
+# Netflix++
 
 Programmed by Dorian Pistilli (dkpistilli@gmail.com)
 
@@ -10,11 +10,10 @@ Contains a manifest file that is a JSON object in a format specified by Google C
 
 #### To-do List
 - Edit links so that they don't ever show purple / use buttons instead
+- (POTENTIAL) have the app scrape the list sites for text, and then display that instead
 - Browse for new font
-- Think of real name
 - Potentially change color of html so it has white title bg and gray link bg to match the Netflix top panel. If that happens, I need to remember to have the height of the top white panel resize dynamically on browser size because Netflix changes the height of its top menu panel when the browser gets small enough (horizontally)
-- Find/Make new icon, and make it work specifically for all sizes
-- Upload to Chrome Online MarketPlace
+- Add varying icon sizes
 
 #### Known Bugs:
 - Not really a bug - extension also works on www.guimp.com,
