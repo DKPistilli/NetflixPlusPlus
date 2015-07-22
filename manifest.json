@@ -4,10 +4,7 @@
     "version"         : "1.0.2",
     "author"          : "Dorian Pistilli",
 
-    "description"   : "Netflix++ is an ultra-lightweight extension that gives you 
-                       instant access to best new content on Netflix. Browse constantly 
-                       updating lists of Netflix's newest content, and never catch 
-                       yourself asking 'What's new on Netflix?' again!",
+    "description"   : "Netflix++ is an ultra-lightweight extension that gives you instant access to lists of the best new movies and shows on Netflix!",
     "icons"         : { "16": "plugin_icon.png",
                         "48": "plugin_icon.png",
                        "128": "plugin_icon.png" },
